@@ -17,5 +17,5 @@ function currentLine(line){
     if (line.length===0)
           return ("The line is currently empty.");
     else
-     return "The line is currently: 1. `line.slice(0)` , 2. `line.slice(1)` , 3. `line.slice(2)` ";
+     return "The line is currently: 1. `line.splice(0)` , 2. `line.splice(1)` , 3. `line.splice(2)` ";
 }
