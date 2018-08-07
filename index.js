@@ -12,9 +12,10 @@ else {
   return ("There is nobody waiting to be served!");
 }}
 
+var line =["Bill", "Jane", "Ann"];
 function currentLine(line){
     if (line.length===0)
           return ("The line is currently empty.");
-    else var line=["Bill", "Jane", "Ann"];
+    else 
      return "The line is currently: 1. `line.slice(0)` , 2. `line.slice(1)` , 3. `line.slice(2)` ";
 }
