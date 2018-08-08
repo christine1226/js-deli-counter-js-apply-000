@@ -19,7 +19,7 @@ function currentLine(deliLine){
           return ("The line is currently empty.");
    else {
      for(var i=0; i<deliLine.length; i++){
-       line += (i+1) +". " + deliLine[i] +","
+       line += (i+1) +" . " + deliLine[i] +","
      }
      line = line.slice(0,line.length-2)
    }
