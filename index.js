@@ -19,6 +19,6 @@ function currentLine(line){
    var namesAndNumbers = [];
   else (var i=0; i<line.length; i++){
     namesAndNumbers.push(i+1 +"."+ line[i]);
-  }  
+  }
   return "The line is currently:" + namesAndNumbers.join(`,`);
 }
