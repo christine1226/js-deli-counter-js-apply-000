@@ -13,12 +13,15 @@ else {
 }}
 
 
-function currentLine(line){
-    if (line.length===0)
+function currentLine(deliLine){
+  var line = [];
+    if (deliLine.length===0)
           return ("The line is currently empty.");
-   var namesAndNumbers = [];
-  else (var i=0; i<line.length; i++){
-    namesAndNumbers.push(i+1 +"."+ line[i]);
-  }
-  return "The line is currently:" + namesAndNumbers.join(`,`);
+   else {
+     for(var i=0; i<deliLine.length; i++){
+       line += (i+1) +"." + deliLine[i] +","
+     }
+     line = line.slice(0,line.length-2)
+   }
+  return "The line is currently:" +line
 }
