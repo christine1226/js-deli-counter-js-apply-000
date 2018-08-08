@@ -14,7 +14,7 @@ else {
 
 
 function currentLine(line){
-  var line =["Bill", "Jane", "Ann"];
+  var line =[];
     if (line.length===0)
           return ("The line is currently empty.");
     else
