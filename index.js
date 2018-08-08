@@ -19,7 +19,6 @@ function currentLine(line){
           return ("The line is currently empty.");
     else line.forEach(function(name,index){
       var number = index+1;
-      var name = line[];
       line.push(`${number}. ${name}`)
     })
      return ("The line is currently: 1. +line; ")
