@@ -13,10 +13,9 @@ else {
 }}
 
 
-function currentLine(katzDeliLine){
-  var katzDeliLine =["Bill", "Jane", "Ann"];
-    if (katzDeliLine.length===0)
+function currentLine(line){
+    if (line.length===0)
           return ("The line is currently empty.");
     else
-     return (The line is currently: 1. katzDeliLine[0] )
+     return (The line is currently: 1. )
 }
