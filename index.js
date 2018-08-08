@@ -16,6 +16,9 @@ else {
 function currentLine(line){
     if (line.length===0)
           return ("The line is currently empty.");
-    else var line=[];
-     console.log("The line is currently: 1. line[0] ")
+   var namesAndNumbers = [];
+  else (var i=0; i<line.length; i++){
+    namesAndNumbers.push(i+1 +"."+ line[i]);
+  }  
+  return "The line is currently:" + namesAndNumbers.join(`,`);
 }
